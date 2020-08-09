@@ -1,4 +1,4 @@
- *{
+*{
     box-sizing: border-box;
 } 
 
@@ -119,6 +119,13 @@ html, body{
     align-content: center;
     text-align: center;
 }
+.video{
+    flex: 50%;
+    padding: 0px 50px;
+}
+.video iframe{
+    width: 100%;
+}
     /*-- FIM SEÇÃO AÇÕES AFIRMATIVAS --*/
    
 
@@ -212,6 +219,11 @@ footer{
         flex-direction: column;
         padding: 0px;
         margin: 0 auto;
+    }
+    .video{
+        flex: 1;
+        padding: 20px;
+        width: 90%;
     }
     
 
