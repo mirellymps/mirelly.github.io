@@ -169,7 +169,6 @@ html, body{
     justify-content: center;
     align-items: center;
     margin: 20px 140px;
-    border-radius: 2%;
 }
 .exemplo{
     display: flex;
