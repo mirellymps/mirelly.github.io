@@ -1,160 +1,236 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UFT-8">
-        <meta name="viewport" content="width:device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
 
-        <title>IGUALIZA BRASIL</title>
+    <title>IGUALIZA BRASIL</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- menu principal -->
+    <header class="container">
         
-        <!-- MENU PRINCIPAL -->
-        <header class="container">
+        <img src="img/logo-site.png" alt="logo">
+
+        <div class="menu-nav">
+            <a href="#menu1">Desigualdades</a>
+            <a href="#menu2">Ações Afirmativas</a>
+            <a href="#menu3">Meu Projeto</a>
+            <a href="#menu4">Sobre Mim</a>
+        </div>
+
+    </header>
+    <!-- fim menu principal-->
+
+
+    <!--- capa projeto --->
+    <section class="capa">
         
-            <img class="logo" src="imagens/logo-site.png" alt="logo">
-            
-            <div class="menu-nav">
-                <a href="#menu1">Desigualdades</a>
-                <a href="#menu2">Ações Afirmativas</a>
-                <a href="#menu3">Iniciativas</a>
-                <a href="#menu4">Sobre Mim</a>
-            </div>
-        </header>
-        <!-- FIM MENU PRINCIPAL-->
-
-
-        <!----- CAPA ------>
-        <section class="img-prin">
-            
-            <h1> IGUALIZA BRASIL </h1>
-            <p> UM MODO DE TRABALHAR O ODS 10</p>
-
-            <a class="ods" href="https://nacoesunidas.org/pos2015/ods10/" target="_blanck">CONHEÇA O ODS 10</a>
-        </section>
-        <!--- FIM DA CAPA --->
-
-
-        <!--- SEÇÃO DESIGUALDADE --->
+        <h1>IGUALIZA BRASIL</h1>
+        <p>UM MODO DE TRABALHAR O ODS 10</p>
         
-       
-        <h1 id="menu1" class="t-des">DESIGUALDADES</h1>
-        <section class="desigualdade">
-                    
-            <div class="imgs">
-                <div class="icon">
-                    <img src="imagens/icon-gender.png" alt="generos">
+        <a class="ods" href="https://nacoesunidas.org/pos2015/ods10/" target="_blanck">CONHEÇA O ODS 10</a>
+    
+    </section>
+    <!--- fim da capa do projeto --->
+    
+
+    <!---desigualdades--->
+    <section id="menu1" class="desigualdades">
+        <h1>DESIGUALDADES</h1>
+        <p>Conheça alguns tipos de desigualdades presentes no Brasil.</p>
+
+        <div class="container-desig">
+
+            <div class="card-desig">
+                <div class="img-card">
+                    <img src="img/icon-gender.png" alt="gênero">
                 </div>
                 
-                <h4>DESIGUALDADE DE GÊNERO</h4>
-                <p> É um fenômeno social estudado pela sociologia que acontece quando 
+                <h3>DESIGUALDADE DE GÊNERO</h3>
+                <p>É um fenômeno social estudado pela sociologia que acontece quando 
                     há discriminação e/ou preconceito com outra pessoa por conta de seu gênero 
-                    (feminino ou masculino). 
-                </p>    
-            </div>
-
-            <div class="imgs">
-                <div class="icon">
-                    <img src="imagens/icon-money.png" alt="renda">
-                </div>
-                
-                <h4> DESIGUALDADE DE RENDA</h4>
-                <p> Define-se como uma distribuição desigual de renda,
-                     geralmente influenciada por fatores
-                    sociais, históricos e por carência de investimento em políticas públicas.
-                </p> 
-            </div>
-
-            <div class="imgs">
-                <div class="icon">
-                    <img src="imagens/study.png" alt="educação">
-                </div>
-                
-                <h4> DESIGUALDADE EDUCACIONAL </h4>
-                <p> O acesso à educação é um fator decisivo no nível de desigualdade social.
-                    A falta de escolarização influencia significamente para o nível de pobreza e de desigualdade de renda de um país.
-                </p> 
-            </div>
-        
-        </section>
-        <!--- FIM SEÇÃO DESIGUALDADE --->
-
-
-        <!-- SEÇÃO AÇÕES AFIRMATIVAS -->
-        <section id="menu2" class="afirmativas">
-            <h1>AÇÕES AFIRMATIVAS</h1>
-
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/DGLMC3Mcygc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            </div>
-            
-        </section>       
-        <!-- FIM SEÇÃO AÇÕES AFIRMATIVAS -->
-
-
-          <!-- SEÇÃO INICIATIVAS -->
-        <section id="menu3" class="iniciativa">
-            <h1>INICIATIVAS</h1>
-
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/DGLMC3Mcygc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            </div>
-            
-        </section>       
-        <!-- FIM SEÇÃO INICIATIVAS -->
-
-
-        <!-- SEÇÃO SOBRE MIM --->       
-        <section id="menu4" class="sobre">
-                     
-            <div class="eu">
-                <h1>SOBRE MIM</h1>
-                <h3>Mirelly Oliveira</h3>
-                <p> Oi! Tenho 17 anos e sou natural de Crixás-GO.
-                    Acredito que o principal motivo de ter 
-                    escolhido falar sobre a redução das desigualdades e 
-                    formas de agir foi o desejo interno de que isso se 
-                    torne uma realidade próxima para todos nós.
-                    Espero ter ajudado de alguma forma!
+                    (feminino ou masculino).
                 </p>
             </div>
-            <div class="eu">
-                <img src="imagens/oioi.png" alt="Mirelly">
-            </div>
-        </section>
-        <!-- FIM SEÇÃO SOBRE MIM ---> 
 
+            <div class="card-desig">
+                <div class="img-card">
+                    <img src="img/icon-money.png" alt="renda">
+                </div>
+                
+                <h3>DESIGUALDADE DE RENDA</h3>
+                <p>É uma distribuição desigual de renda,
+                    geralmente influenciada por fatores
+                    sociais, históricos e por carência de 
+                    investimento em políticas públicas.
+                </p>
+            </div>
+
+            <div class="card-desig">
+                <div class="img-card">
+                    <img src="img/study.png" alt="educação">
+                </div>
+                
+                <h3>DESIGUALDADE DE ENSINO</h3>
+                <p>O acesso à educação é um fator decisivo no nível de 
+                    desigualdade social. A falta de escolarização 
+                    influencia significamente para o nível de pobreza
+                    e de desigualdade de renda de um país.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--- fim desigualdades--->
+
+    
+    <!--- ações afirmativas --->
+    <section id="menu2" class="acoes">
+        <h1>AÇÕES AFIRMATIVAS</h1>
+
+        <h3>O que seriam essas ações afirmativas?</h3>
+        <p>São políticas públicas destinadas à promoção da igualdade
+            material com o objetivo de suprir desigualdades étnicas,
+            econômicas ou sociais. Em resumo, propõem corrigir as 
+            desigualdades históricas presentes.
+        </p>
+
+        <div class="container-acoes">
+            <h2>NO BRASIL</h2>
+                
+            <div class="acao">
+                    
+                <div class="exemplo">
+                    <img src="img/open-figures.png" alt="universitários">
+                </div>
+
+                <div class="conteudo">
+                    <h2>LEI DE COTAS</h2>
+                    <p>A Lei de Cotas é um instrumento que foi 
+                        criado pelo Governo Federal para contemplar 
+                        os estudantes de escolas públicas, de baixa renda, 
+                        negros, pardos e indígenas (PPI) e pessoas com deficiência
+                        (PcD) para auxiliar o ingresso desses indivíduos no Ensino Superior
+                        auxiliando na luta contra as desigualdades socioeconômicas. 
+                    </p>
+                </div>
+            </div>
+            
+            <div class="acao">
+                    
+                <div class="exemplo">
+                    <img src="img/humaaans.png" alt="cadeirante">
+                </div>
+
+                <div class="conteudo">
+                    <h2>Inciso XXXI do Artigo 7 da Constituição Federal de 1988</h2>
+                    <p> Expressa o direito ao trabalho das pessoas com deficiência,
+                        proibindo discriminações nos critérios de admissão e de salário
+                        dos mesmos como um meio temporário de reduzir as desigualdades 
+                        existentes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="acao">
+                    
+                <div class="exemplo">
+                    <img src="img/work.png" alt="funcionários">
+                </div>
+
+                <div class="conteudo">
+                    <h2>AÇÕES POR PARTE DE INSTITUIÇÕES PRIVADAS</h2>
+                    <p> Consiste na colocação, no quadro funcional corporativo, 
+                        de negros, mulheres, pessoas portadoras de deficiência
+                        em cargos e posições de destaque. Também inclui-se,
+                        por meio de patrocínio a iniciativas 
+                        voltadas para as questões de gênero e raça como forma de
+                        apoio a eventos de cultura erudita.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--- fim ações afirmativas --->
+
+
+    <!--- meu projeto --->
+    <section id="menu3" class="projeto">
+            
+        <div class="texto-projeto">
+            <h1>IGUALIZA BRASIL</h1>            
+            <h3>Qual a ideia principal do projeto?</h3>
+            <p>
+                Funciona como uma nova ação afirmativa. Um programa com uma lista
+                de medidas que devem ser realizadas em busca de diminuir o 
+                quadro de desigualdades socioecônomicas na sua região.
+            </p>
+            
+            <h3>Quem pode ajudar?</h3>
+            <p> Consiste basicamente no alistamento voluntário de diversos
+                profissionais de áreas diversificadas, tais como,
+                professores, CEOs, pequenos empresários, líderes religiosos,
+                ativistas e pessoas interessadas em contribuir com essa 
+                iniciativa.
+            </p>
+        </div>
         
-        <!------RODAPÉ------>    
-        <footer>
+        <div class="img-projeto">
+            <img src="img/oprojeto.png" alt="foto-projeto">
+        </div>
+    </section>
+    <!--- fim meu projeto --->
+
+    <!-- seção sobre mim --->       
+    <section id="menu4" class="sobre">
+            
+        <div class="eu">
+            <h1>SOBRE MIM</h1>
+            <h3>Mirelly Oliveira</h3>
+            <p> Oi! Tenho 17 anos e sou natural de Crixás-GO.
+                Acredito que o principal motivo de ter 
+                escolhido falar sobre a redução das desigualdades e 
+                formas de agir foi o desejo interno de que isso se 
+                torne uma realidade próxima para todos nós.
+                Espero ter ajudado de alguma forma!
+            </p>
+        </div>
+        <div class="eu">
+            <img src="img/oioi.png" alt="Mirelly">
+        </div>
+    </section>
+    <!-- fim seção sobre mim --> 
+
+
+    <!-- rodapé -->   
+    <footer>
            
-            <div class="credit">
-                <h1>IGUALIZA</h1>
-                <p>Projeto desenvolvido durante o curso Meu Primeiro 
-                Site, promovido pela Junior Achievement Brasil e Microsoft.
-                Baseado no Objetivo de Desenvolvimento Sunstentável 10
-                (ODS10).
-                </p>
-            </div>
-            
-            <div class="credit">
-                <h1>CRÉDITOS</h1>
-                <ul class="fontes">
-                    <li>Fonte do Google Fonts</li>
-                    <li>Ícones e Imagens de Freepik</li>
-                    <li>Imagem de Imaginar Solution</li>
-                </ul>          
-           </div>
-
-        </footer>
-
-
-
-    </body>
+        <div class="credit">
+            <h1>IGUALIZA</h1>
+            <p>Projeto desenvolvido durante o curso Meu Primeiro 
+            Site, promovido pela Junior Achievement Brasil e Microsoft.
+            Baseado no Objetivo de Desenvolvimento Sunstentável 10
+            (ODS10).
+            </p>
+        </div>
+        
+        <div class="credit">
+            <h1>CRÉDITOS</h1>
+            <ul class="fontes">
+                <li>Fonte do Google Fonts</li>
+                <li>Ícones e Imagens de Freepik</li>
+                <li>Imagem de Imaginar Solution</li>
+                <li>Ilustrações de Blush Design</li>
+            </ul>          
+       </div>
+    </footer>
+    <!-- fim do rodapé -->   
+</body>
 </html>

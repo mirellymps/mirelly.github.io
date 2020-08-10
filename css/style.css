@@ -9,10 +9,7 @@ html, body{
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-    /* -- MENU --*/
-.logo {
-    width: 5.5%;
-}
+/*-- menu principal --*/
 .container{
     background: rgb(27, 195, 218);
     display: flex;
@@ -20,48 +17,49 @@ html, body{
     align-items: center;
     padding: 2px 30px;
 }
-    .menu-nav{
-        list-style: none;
-        display: flex;
-        margin: 0;
-    }
-    .menu-nav a{
-        text-decoration: none;
-        padding: 20px;
-        color:white;
-        text-align: center;
-        font-size: 18px;
-            }
-    .menu-nav a:hover{
-        background-color: whitesmoke;
-        color: rgb(4, 93, 105);
-    }
-    /* -- FIM MENU --*/
-
-
-
-    /*-- CAPA --*/
-.img-prin{
-    background-image: url(../imagens/backgroung.png);
+.container img{
+    width: 90px;
+    padding-left: 20px;
+}
+.menu-nav{
+    list-style: none;
     display: flex;
+    margin: 0;
+}
+.menu-nav a{
+    text-decoration: none;
+    padding: 20px;
+    color:white;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-size: cover;
-    min-height: 100vh; 
+    font-size: 18px;
 }
-.img-prin h1{
-    margin:0 auto;
+.menu-nav a:hover{
+    background-color: whitesmoke;
     color: rgb(4, 93, 105);
-    font-size: 80px;
-    text-shadow: 2px 3px 2px white;
-    
 }
-.img-prin p{
-    color: black;
-    padding-bottom: 15px;
+/*-- fim menu principal --*/
+
+
+/*-- capa da página --*/
+.capa {
+    background-image: url(../img/backgroung.png);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    text-align: center;    
+    justify-content: center;
+}
+.capa h1{
+    font-size: 80px;
+    margin: 0 auto;
+    color: rgb(4, 93, 105);
+    text-shadow: 2px 3px 2px white;
+}
+.capa p{
     font-size: 40px;
+    padding-bottom: 15px;
     text-shadow: 2px 3px 2px white;
     font-family: 'Maven Pro', sans-serif;
 }
@@ -72,79 +70,185 @@ html, body{
     text-decoration: none;
     border-radius: 10px;
     background-color: black;
-
 }
 .ods:hover{
     background-color: rgb(27, 195, 218);
 }
-    /*-- FIM CAPA --*/
+/*-- fim da capa da página --*/
 
-
-
-    /*-- SEÇÃO DESIGUALDADES --*/
-.t-des{
-    background-color: rgb(214, 245, 250);
+/*-- seção desigualdades --*/
+.desigualdades {
+    max-width: 100%;
+    padding: 30px 0px 25px 0px;
+    background-color: azure;
+}
+.desigualdades h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(4, 93, 105);
+    font-weight: bold;
+}
+.desigualdades p{
+    text-align: center;
+    font-size: 25px;
+}
+.container-desig{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.card-desig{
+    flex: 30%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+.card-desig img{
+    max-width: 35%;
+    margin: 20px;
+}
+.card-desig h3{
+    text-align: center;
+    font-weight: bold;
+}
+.card-desig p{
+    text-align: justify;
+    font-size: 22px;
+}
+.img-card{
+    height: 85px;
+    width: 85px;
     text-align: center;
     margin: 0 auto;
-    padding: 30px 10px 20px 10px;
-    color: rgb(4, 93, 105);
-    font-size: 40px;
 }
-.desigualdade{
-    background-color: rgb(214, 245, 250);
+.img-card img{
+    max-width: 80%;
+    margin: 15px;
+}
+/*-- fim seção desigualdades --*/
+
+
+/*-- seção ações afirmativas --*/
+.acoes {
     max-width: 100%;
+    padding: 30px 0px 25px 0px;
+    background-color: rgb(231, 255, 255);
+}
+.acoes h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(4, 93, 105);
+}
+.acoes h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.acoes p{
+    text-align: center;
+    font-size: 21px;
+    padding: 2px 210px;
+}
+.container-acoes{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container-acoes h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 28px;
+    color: rgb(4, 93, 105);
+}
+.acao {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px 85px;
+}
+.exemplo{
+    flex: 30%;
+    align-items: center;
+    padding: 2px 20px 0px 90px;
+    height: 210px;
+    width: 250px;
+    background-color: #9DD5CE;
+    margin: 0 auto;
+    justify-content: center;
+}
+.exemplo img{
+    max-width: 60%;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    flex: 70%;
+    background-color: #9DD5CE;
+    height: 210px;
+}
+.conteudo h2{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(4, 93, 105);
+    padding: 0;
+}
+.conteudo p{
+    text-align: justify;
+    justify-content: center;
+    padding: 0px 90px 0px 10px;
+}
+/*-- fim seção ações afirmativas --*/
+
+
+/*-- seção meu projeto --*/
+.projeto{
     display: flex;
     margin: 0 auto;
-    padding: 30px;
+    justify-content: center;
+    max-width: 100%;
     flex-wrap: wrap;
 }
-.imgs{
-    flex: 30%;
-    width: 30%;
+.texto-projeto{
+    flex: 70%;
+    justify-content: center;
+    padding: 0px 100px;
+}
+.texto-projeto h1{
+    font-size: 35px;
     text-align: center;
-    padding: 0px 70px;
-    font-size: 20px;
+    color:rgb(4, 93, 105);
 }
-.imgs img{
-    width:50px;
+.texto-projeto h3{
+    text-align: center;
+    font-size: 28px;
 }
-.imgs p{
+.texto-projeto p{
     text-align: justify;
+    font-size: 24px;
 }
-    /*-- FIM SEÇÃO DESIGUALDADES --*/
-
-    
-    /*-- SEÇÃO AÇÕES AFIRMATIVAS --*/
-.afirmativas {
-    align-content: center;
-    text-align: center;
-}
-.video{
-    flex: 50%;
-    padding: 0px 50px;
-}
-.video iframe{
+.img-projeto{
+    flex: 30%;
     width: 100%;
+    justify-content: center;
+    padding: 70px 0;
 }
-    /*-- FIM SEÇÃO AÇÕES AFIRMATIVAS --*/
-   
-
-    /*-- SEÇÃO INICIATIVAS --*/  
-.iniciativa {
-        align-content: center;
-        text-align: center;
-    }
-    /*-- FIM SEÇÃO INICIATIVAS --*/ 
+.img-projeto img{
+    width: 80%;
+}
+/*-- fim seção meu projeto --*/
 
 
-    /*-- SEÇÃO SOBRE MIM --*/
+/*-- seção sobre mim --*/
 .sobre{
     display: flex;
-    align-content: center;
-    margin: 0 auto;
     max-width: 100%;
-    background-color: rgb(214, 245, 250);
-    padding: 25px 0px;
+    margin: 0 auto;
+    padding: 30px 0px 20px 0px;
+    flex-wrap: wrap;
+    background-color:azure;
 }
 .eu{
     flex: 50%;
@@ -168,10 +272,10 @@ html, body{
     max-width:100%;
     border-radius: 15px;
 }
-    /*-- FIM SEÇÃO SOBRE MIM --*/
+    /*-- fim da seção sobre mim --*/
 
 
-    /* -- RODAPÉ -- */
+    /* -- rodapé -- */
 footer{
     display: flex;
     background: rgb(27, 195, 218);
@@ -197,38 +301,134 @@ footer{
     text-decoration: none;
     list-style: none;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
 }
-    /*-- FIM DO RODAPÉ --*/
+    /*-- fim do rodapé --*/
 
 
+    /*-- responsividade --*/
 
-    /*-- RESPONSIVIDADE --*/
-@media (max-width: 760px){
+@media all and (max-width: 760px){
     .container{
         flex-direction: column;
         align-items: center;
         padding: 0px;
     }
-
     .menu-nav{
         display: none;
-    }
-
-    .desigualdade, .t-des, .imgs, .sobre{
+    }    
+    .desigualdades, .container-desig, .card-desig{
         flex-direction: column;
         padding: 0px;
+    }
+    .desigualdades h1, .acoes h1, .texto-projeto h1, .eu h1{
+        font-size: 30px;
+    }
+    .capa h1{
+        font-size: 68px;
+    }
+    .capa p{
+        font-size: 32px;
+        padding: 0;
+        margin: 0;
+    }
+    .desigualdades p{
+        font-size: 21px;
+        padding: 0px 15px;
+    }
+    .card-desig p{
+        font-size: 18px;
+    }
+    .acoes h3{
+        font-size: 22px;
+    }
+    .acoes p{
+        flex-direction: column;
+        padding: 0px 30px;
+        margin-bottom: 35px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .container-acoes h2{
+        padding: 0px 10px;
+        margin:0px;
+    }
+    .acao{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .conteudo{
+        flex-direction: column;
+        border-bottom-left-radius: 8%;
+        border-bottom-right-radius: 8%;
+    }
+    .exemplo{
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+        border-top-left-radius: 8%;
+        border-top-right-radius: 8%;
+    }
+    .exemplo img{
+        margin: 10px 64px 0px 64px;
+        width: 100%;
+    }
+    .projeto{
+        flex-direction: column;
+    }
+    .texto-projeto{
+        padding: 0px 25px;
+        background-color:rgb(231, 255, 255);
+    }
+    .texto-projeto h3{
+        font-size: 22px;
+    }
+    .texto-projeto p{
+        font-size: 19px;
+    }
+    .img-projeto{
+        padding: 0px;
+    }
+    .img-projeto img{
+        width: auto;
         margin: 0 auto;
+        padding: 0px 60px;
     }
-    .video{
-        flex: 1;
-        padding: 20px;
-        width: 90%;
+    .text{
+        font-size: 20px;
+        margin: 0px;
+        padding: 15px 
     }
-    
-
-
-
-
-
+    .sobre{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .eu{
+        padding: 10px 35px;
+    }
+    .eu h1{
+        margin: 0px;
+    }
+    .eu h3 {
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    .eu p{
+        font-size: 18px;
+        margin: 5px 0px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px 35px;
+    }
+    .credit{
+        padding: 0px;
+    }
+    .credit h1{
+        font-size: 28px;
+        margin: 5px 0px 18px 0px;
+    }
+    .fontes {
+        padding: 0px;
+    }
 }
